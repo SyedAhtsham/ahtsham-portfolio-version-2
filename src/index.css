@@ -37,6 +37,36 @@
 
     --radius: 0.75rem;
   }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 0 0% 98%;
+    
+    --card: 222 47% 11%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 222 47% 11%;
+    --popover-foreground: 0 0% 98%;
+    
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 98%;
+    
+    --secondary: 217 32% 17%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 217 32% 17%;
+    --muted-foreground: 215 20% 65%;
+    
+    --accent: 217 32% 17%;
+    --accent-foreground: 0 0% 98%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 217 32% 17%;
+    --input: 217 32% 17%;
+    --ring: 224 76% 48%;
+  }
 }
 
 @layer base {
@@ -109,11 +139,11 @@
   }
   
   .skill-badge {
-    @apply px-3 py-1 rounded-full text-sm font-medium bg-secondary text-primary transition-all duration-300 hover:bg-primary/10;
+    @apply px-3 py-1 rounded-full text-sm font-medium bg-secondary text-primary transition-all duration-300 hover:bg-primary/10 dark:hover:bg-primary/20;
   }
   
   .glass-card {
-    @apply bg-white/80 backdrop-blur-sm border border-white/20 shadow-md rounded-xl;
+    @apply bg-white/80 backdrop-blur-sm border border-white/20 shadow-md rounded-xl dark:bg-slate-800/50 dark:border-slate-700/50;
   }
   
   .hover-card {
