@@ -50,7 +50,7 @@ const Experience = () => {
       company: "Quaid-i-Azam University",
       period: "Jan 2021 – Jun 2022",
       responsibilities: [
-        "Collaborated on an industrial research project "Optimal Route Planning using Artificial Intelligence" for TCS Express",
+        "Collaborated on an industrial research project 'Optimal Route Planning using Artificial Intelligence' for TCS Express",
         "Developed a comprehensive Last Mile Delivery Management System module using PHP Laravel, MySQL, JS, and Heroku after gathering requirements visiting TCS delivery hubs, wrote SRS, created design and documentation",
         "Wrote Python scripts to generate accurate geo-locations datasets for model training using Google Maps APIs",
         "Automated Consignment Delivery sheet generation process, driver-vehicle assignment, and sending data to driver's mobile app for route visualization, thereby reducing the delivery times by 35%",
